@@ -21,30 +21,16 @@ public class Main {
      */
     public static void main(String[] args) {
         
-          InserccionLista lista = new InserccionLista();  
-          int num = 0;
-           
-        Scanner archivo = null;
-	try {
-            archivo = new Scanner(new File("C:\\Users\\User\\Desktop\\Estrucura de Datos\\Mio\\10.LeerTxt_GuardarloEnarreglo\\src\\numeros.txt"));
-	} catch (FileNotFoundException e) {
-            e.printStackTrace();
-            System.out.println("Archivo no encontrado");
-	}
-	
-        while(archivo.hasNext()){
-            num = archivo.nextInt();
-            lista.insertarNodo(num);    //Guardaos el numero en la lista y lo ubica en orde de mayor a menor
-            //System.out.println(num);            
-        }
+        AlgoritmoOrdenamiento algoritmo = new AlgoritmoOrdenamiento();
+        String direccionTxt  ="C:\\Users\\josgi\\Desktop\\numeros.txt";//---****************Aca escribi tu dirección 
         
-        //Imprimimos la lista ordenada 
-        lista.imprimirLista();
         
-             
-                
-	
-                
+        //INSERCIÓN: Ordedamiento de lista por medio de inserción
+      // algoritmo.ordenamientoInserccion(direccionTxt);
+        
+       
+       //Burbuja: Ordedaiento de lista por algoritmo burbuja 
+      algoritmo.ordedamientoBurbuja(direccionTxt);         
     } 
 }
     
