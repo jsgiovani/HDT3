@@ -62,7 +62,7 @@ public class AlgoritmoOrdenamiento {
         
         Nodo aux=listaB.tope;
          while (aux != null) {
-            System.out.print(aux.dato + " ");
+            System.out.println(aux.dato);
             aux = aux.siguiente;
         }
         
