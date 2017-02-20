@@ -22,15 +22,26 @@ public class Main {
     public static void main(String[] args) {
         
         AlgoritmoOrdenamiento algoritmo = new AlgoritmoOrdenamiento();
-        String direccionTxt  ="C:\\Users\\josgi\\Desktop\\numeros.txt";//---****************Aca escribi tu dirección 
+        String direccionTxt  ="C:\\Users\\User\\Desktop\\Estrucura de Datos\\Mio\\HD3_Ordedamiento\\src\\numeros.txt";//---****************Aca escribi tu dirección 
         
         
         //INSERCIÓN: Ordedamiento de lista por medio de inserción
-      // algoritmo.ordenamientoInserccion(direccionTxt);
+       //algoritmo.ordenamientoInserccion(direccionTxt);
         
        
        //Burbuja: Ordedaiento de lista por algoritmo burbuja 
-      algoritmo.ordedamientoBurbuja(direccionTxt);         
+       algoritmo.ordedamientoBurbuja(direccionTxt);
+       
+        
+        
+        
+        
+        
+        
+             
+                
+	
+                
     } 
 }
     
